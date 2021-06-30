@@ -40,13 +40,11 @@
     object-fit:scale-down;
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    padding-left: auto;
-    
-  
    
 
+}
+
+#heading {
+    max-width: 100%;
 }
 
