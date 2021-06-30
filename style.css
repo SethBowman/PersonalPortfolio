@@ -4,8 +4,20 @@
     text-align: center;
     color:floralwhite;
     background-color: black;
-    background-image: url("https://thumbs.dreamstime.com/b/green-line-coding-seamless-pattern-vector-illustration-outline-tile-background-programming-skills-82682148.jpg");
-}
+    
+   }
+
+   img {
+       border-color: aqua;
+       border-style: solid;
+       border-width: 3px;
+   }
+
+   h1 {
+       background-color: aqua;
+       color: black;
+       font-size: xx-large ;
+   }
 
 .flex-item {
     display: flex;
@@ -13,7 +25,7 @@
     height: 100px;
     background-color:rgba(177, 177, 177, 0.5);
     text-align: center;
-    background-image: url();        
+    background-image: url();       
     }
     
 .flex-container {
