@@ -36,7 +36,7 @@
          
     }
 
-    #headPhoto {
+#headPhoto {
     object-fit:scale-down;
     display: flex;
     justify-content: space-around;
