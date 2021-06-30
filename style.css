@@ -17,6 +17,7 @@
     }
     
     .flex-item {
+        display: flex;
         width: 100px;
         height: 100px;
         background-color:rgba(177, 177, 177, 0.5);
@@ -28,8 +29,7 @@
         justify-content: space-around;
         max-width: 800px;
         flex-wrap: wrap;
-        margin: auto;  
-        border: 1px solid royalblue;
+        margin: auto; 
          
     }
 
