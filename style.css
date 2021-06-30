@@ -8,13 +8,13 @@
    }
 
    img {
-       border-color: aqua;
+       border-color: #0094c8;
        border-style: solid;
        border-width: 3px;
    }
 
    h1 {
-       background-color: aqua;
+       background-color: #0094c8;
        color: black;
        font-size: xx-large;
    }
