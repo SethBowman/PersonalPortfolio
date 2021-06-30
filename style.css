@@ -7,3 +7,29 @@
     background-image: url("https://cdn4.vectorstock.com/i/1000x1000/44/28/tiled-background-or-seamless-pattern-vector-19064428.jpg");
 }
 
+.gif {
+    text-align: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    }
+    
+    .flex-item {
+        width: 100px;
+        height: 100px;
+        background-color:rgba(177, 177, 177, 0.5);
+        text-align: center;        
+    }
+    
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+        max-width: 800px;
+        flex-wrap: wrap;
+        margin: auto;  
+        border: 1px solid royalblue;
+         
+    }
+
