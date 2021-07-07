@@ -1,66 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="app.js" defer></script>
     <title>Seth Bowman Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="headPhoto">
-        <img id="heading" src="images/personalpic.gif" alt="Gif Header">
+      <img id="heading" src="images/personalpic.gif" alt="Gif Header" />
     </section>
     <section>
-        <h1>Brandon Seth Bowman</h1>
-        <p>Coder, Family man</p>
+      <h1 class="AnimatedHeading">Brandon Seth Bowman</h1>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<p>
+  Coder, Instructor, Family man.
+</p>
     </section>
-    <ul>        
-        <li><a href="mailto:sbowman@truecoders.io">sbowman@truecoders.io</a></li>
-        <li><a href="tel:205-479-0893">(205)479-0893</a></li>
-        <section>
-            <h2 id="schooling">Schooling/Work at TrueCoders</h2>
-            <a href="https://truecoders.io/landing?gclid=Cj0KCQjwytOEBhD5ARIsANnRjVj0wVbYr02TXKH3WF5ipi2E_W55yjwrYvJGx9AOjKykL_lAyaJiyJkaAunjEALw_wcB">
-                <img src="images/tclogo.jpg" alt="TrueCodersLogo">
-                </a>
-            <p>Completed and earned certification for Full-Stack Software Engineering. Currently an instructor for the school.</p>
-        </section>
+    <ul>
+      <li><a href="mailto:sbowman@truecoders.io">sbowman@truecoders.io</a></li>
+      <li><a href="tel:205-479-0893">(205)479-0893</a></li>
+      <section>
+        <h2 id="schooling">Schooling/Work at TrueCoders</h2>
+        <a
+          href="https://truecoders.io/landing?gclid=Cj0KCQjwytOEBhD5ARIsANnRjVj0wVbYr02TXKH3WF5ipi2E_W55yjwrYvJGx9AOjKykL_lAyaJiyJkaAunjEALw_wcB"
+        >
+          <img src="images/tclogo.jpg" alt="TrueCodersLogo" />
+        </a>
+        <p>
+          Completed and earned certification for Full-Stack Software
+          Engineering. Currently an instructor for the school.
+        </p>
+      </section>
     </ul>
     <section>
-        <h2 id="langs">Languages:</h2>
-        <div class="flex-container">
-            <div class="flex-item">
-                <a href="https://en.wikipedia.org/wiki/JavaScript">
-                    <img src="images/javascript-logo.png" alt="JSLogo" style="height: 100px;">
-                    </a>               
-            </div>
-            <div class="flex-item">
-                <a href="https://en.wikipedia.org/wiki/HTML">
-                    <img src="images/htmllogo.png" alt="HTMLlogo" style="height: 100px;">
-                    </a>               
-            </div>
-            <div class="flex-item">
-                <a href="https://en.wikipedia.org/wiki/CSS">
-                    <img src="images/csslogo.png" alt="CSSLogo" style="height: 100px;">
-                    </a>               
-            </div>
-            <div class="flex-item">
-                <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">
-                    <img src="images/csharplogo.png" alt="CSharpLogo" style="height: 100px;">
-                    </a>               
-            </div>
+      <h2 id="langs">Languages:</h2>
+      <div class="flex-container">
+        <div class="flex-item">
+          <a href="https://en.wikipedia.org/wiki/JavaScript">
+            
+            <figure>
+              <img
+                src="images/javascript-logo.png"
+                alt="JSLogo"
+                style="height: 100px"
+              />
+            </figure>
+          </a>
         </div>
+        <div class="flex-item">
+          <a href="https://en.wikipedia.org/wiki/HTML">
+            <figure>
+              <img
+                src="images/htmllogo.png"
+                alt="HTMLlogo"
+                style="height: 100px"
+              />
+            </figure>
+          </a>
+        </div>
+        <div class="flex-item">
+          <a href="https://en.wikipedia.org/wiki/CSS">
+            <figure>
+              <img 
+                src="images/csslogo.png" 
+                alt="CSSLogo" 
+                style="height: 100px" />
+            </figure>
+          </a>
+        </div>
+        <div class="flex-item">
+          <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">
+            <figure>
+              <img
+                src="images/csharplogo.png"
+                alt="CSharpLogo"
+                style="height: 100px"
+              />
+            </figure>
+          </a>
+        </div>
+      </div>
     </section>
     <section>
-        <h2 id="github">Github:</h2>
-        <a href="https://github.com/SethBowman">
-            <img src="images/githublogo.png" alt="GithubPage" style="width:100px;height:100px;">
-            </a>    
-        <p>Click the image above to be directed to GitHub</p>
+      <h2 id="github">Github:</h2>
+      <a href="https://github.com/SethBowman">
+        <figure>
+          <img
+          id="GithubLogo"
+            src="images/githublogo.png"
+            alt="GithubPage"
+            style="width: 100px; height: 100px"
+          />
+        </figure>
+      </a>
+      <p>Click the image above to be directed to GitHub</p>
     </section>
+
+    <img id="gif" src="" alt="No gif displayed" style="height: 100px" />
     
-        <img id="gif" src="" alt="No gif displayed" style="height: 100px;">
-   
-</body>
+    <p class="ParaAnime">
+      <span class="word">Learn</span>
+      <span class="word">To</span>
+      <span class="word">Code!</span>
+    </p>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </body>
 </html>
