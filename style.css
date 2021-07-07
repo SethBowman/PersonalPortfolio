@@ -85,7 +85,6 @@
     margin: 0;
     height: 100%;
     width: 100%;
-    filter: grayscale(0);
   }
  
   figure::before {
@@ -142,3 +141,39 @@
      font-size: larger;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+
+
+  .flex-item2 {
+    display: flex;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-image: url();       
+    }
+    
+.flex-container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto; 
+         
+    }
+
+
+    .flex-item3 {
+      display: flex;
+      width: auto;
+      height: auto;
+      text-align: center;
+      background-image: url();       
+      }
+      
+  .flex-container3 {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: auto; 
+           
+      }
+  
+
