@@ -42,7 +42,7 @@ anime
   .timeline({ loop: true })
   .add({
     targets: ".ParaAnime .word",
-    scale: [14, 1],
+    scale: [2, 1],
     opacity: [0, 1],
     easing: "easeOutCirc",
     duration: 800,
