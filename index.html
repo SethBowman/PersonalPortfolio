@@ -13,22 +13,39 @@
     <title>Seth Bowman Portfolio</title>
   </head>
   <body>
-    <section>
-      <h1>Seth Bowman's Portfolio</h1>
+    <section class="top">
+      <div>
+        <h1>Seth Bowman's Portfolio</h1>
+      </div>
+      <div id="headphoto">
+        <img
+          id="heading"
+          src="images/headshot.jpg"
+          alt="Gif Header"
+          style="height: 350px"
+        />
+      </div>
+      <div class="animation">
+        <h2 class="AnimatedHeading">Welcome!</h2>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      </div>
+      <div>
+        <p>Coder, Instructor, Family man.</p>
+      </div>
     </section>
-    <section id="headPhoto">
-      <img id="heading" src="images/headshot.jpg" alt="Gif Header" style="height: 350px;"/>
-    </section>
-    <section>
-      <h2 class="AnimatedHeading">Welcome!</h2>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-      <p>Coder, Instructor, Family man.</p>
-    </section>
-    <ul class="contact">
-      <li><a class="contact" href="mailto:sbowman@truecoders.io">sbowman@truecoders.io</a></li>
-      <li><a class="contact" href="tel:205-787-0852">(205)787-0852</a></li>
-      <section>
+    <section class="middle">
+      <div class="contact-info">
+        <ul class="contact">
+          <li>
+            <a class="contact" href="mailto:sbowman@truecoders.io"
+              >sbowman@truecoders.io</a
+            >
+          </li>
+          <li><a class="contact" href="tel:205-787-0852">(205)787-0852</a></li>
+        </ul>
+      </div>
+      <div class="schooling">
         <h2 id="schooling">Schooling/Work at TrueCoders</h2>
         <div class="flex-container2">
           <div class="flex-item2">
@@ -52,9 +69,10 @@
           Completed and earned certification for Full-Stack Software
           Engineering. Currently an instructor for the school.
         </p>
-      </section>
-    </ul>
-    <section>
+      </div>
+    </section>
+
+    <section class="code-langs">
       <h2 id="langs">Languages:</h2>
       <div class="flex-container">
         <div class="flex-item">
@@ -110,46 +128,54 @@
         </div>
       </div>
     </section>
-    <section>
-      <h2 id="github">Github:</h2>
-      <div class="flex-container3">
-        <div class="flex-item3">
-          <figure class="circle-img">
-            <a href="https://github.com/SethBowman" target="_blank">
-              <img
-                id="lang"
-                id="GithubLogo"
-                src="images/githublogo.png"
-                alt="GithubPage"
-                style="width: 100px; height: 100px"
-              />
-            </a>
-          </figure>
+
+    <section class="github-display">
+      <div>
+        <h2 id="github">Github:</h2>
+        <div class="flex-container3">
+          <div class="flex-item3">
+            <figure class="circle-img">
+              <a href="https://github.com/SethBowman" target="_blank">
+                <img
+                  id="lang"
+                  id="GithubLogo"
+                  src="images/githublogo.png"
+                  alt="GithubPage"
+                  style="width: 100px; height: 100px"
+                />
+              </a>
+            </figure>
+          </div>
         </div>
+        <p>Click the image above to be directed to GitHub</p>
       </div>
-      <p>Click the image above to be directed to GitHub</p>
     </section>
 
-    <img id="gif" src="" alt="No gif displayed" style="height: 150px" />
-
-    <p class="ParaAnime">
-      <span class="word">Learn</span>
-      <span class="word">To</span>
-      <span class="word">Code!</span>
-    </p>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-    <p class="bottom">
-      Sign up with
-      <a
-        class="bottom"
-        href="https://truecoders.io/landing?gclid=Cj0KCQjwytOEBhD5ARIsANnRjVj0wVbYr02TXKH3WF5ipi2E_W55yjwrYvJGx9AOjKykL_lAyaJiyJkaAunjEALw_wcB"
-        target="_blank"
-      >
-        TrueCoders
-      </a>
-      and become a web developer too!
-    </p>
+    <section class="page-footer">
+      <div>
+        <img id="gif" src="" alt="No gif displayed" style="height: 150px" />
+      </div>
+      <div>
+        <p class="ParaAnime">
+          <span class="word">Learn</span>
+          <span class="word">To</span>
+          <span class="word">Code!</span>
+        </p>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      </div>
+      <div>
+        <p class="bottom">
+          Sign up with
+          <a
+            class="bottom"
+            href="https://truecoders.io/landing?gclid=Cj0KCQjwytOEBhD5ARIsANnRjVj0wVbYr02TXKH3WF5ipi2E_W55yjwrYvJGx9AOjKykL_lAyaJiyJkaAunjEALw_wcB"
+            target="_blank"
+          >
+            TrueCoders
+          </a>
+          and become a web developer too!
+        </p>
+      </div>
+    </section>
   </body>
 </html>
