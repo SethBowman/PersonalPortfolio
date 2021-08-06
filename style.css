@@ -1,20 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+
 * {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
   align-items: center;
   text-align: center;
-  color: floralwhite;
-  background-color: black;
+  color: floralwhite;  
 }
 
-img {
-  border-color: #0094c8;
-  border-style: solid;
-  border-width: 3px;
+body {
+  
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-image: linear-gradient(
+    0deg,
+    rgb(103, 142, 226) 23.8%,
+    rgb(163, 186, 236) 92%
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    border-radius: 15%;
+  }
+
+.circle-img {
+  border-radius: 50%;
+  
 }
 
 h1 {
-  background-color: #0094c8;
-  color: black;
+  background-color: rgb(103, 142, 226) 23.8%,;
+ 
   font-size: xx-large;
 }
 
@@ -22,8 +42,7 @@ h1 {
   display: flex;
   width: 100px;
   height: 100px;
-  text-align: center;
-  background-image: url();
+  text-align: center;  
 }
 
 .flex-container {
@@ -31,17 +50,26 @@ h1 {
   justify-content: space-around;
   max-width: 800px;
   flex-wrap: wrap;
-  margin: auto;
+  margin: auto;  
 }
 
 #headPhoto {
   object-fit: scale-down;
   display: flex;
   justify-content: space-around;
+  
 }
 
 #heading {
   max-width: 100%;
+  box-shadow: 0 10px 10px 0 rgba(37, 37, 37, 0.6);
+  border-radius: 5%;
+  border-width: 0;
+}
+
+.true-coders { 
+  border-radius: 5%;
+  
 }
 
 .AnimatedHeading {
@@ -54,8 +82,8 @@ h1 {
 .AnimatedHeading .letter {
   display: inline-block;
   line-height: 1em;
-  background-color: #0094c8;
-  color: black;
+  background-color:rgb(103, 142, 226) 23.8%;
+  
   font-size: xx-large;
 }
 
@@ -71,7 +99,8 @@ h1 {
   line-height: 1em;
 }
 
-figure {
+figure {  
+  
   position: relative;
   overflow: hidden;
   margin: 0;
@@ -88,7 +117,7 @@ figure::before {
   content: "";
   width: 0;
   height: 0;
-  background: #0094c8;
+  background: rgb(103, 142, 226) 23.8%;;
   border-radius: 100%;
   transform: translate(-50%, -50%);
   opacity: 0;
@@ -115,11 +144,11 @@ figure:hover::before {
 @keyframes circle {
   0% {
     opacity: 0.5;
-    background: #0094c8;
+    background: rgb(103, 142, 226) 23.8%;;
   }
   40% {
     opacity: 1;
-    background: #0094c8;
+    background: rgb(103, 142, 226) 23.8%;;
   }
   100% {
     width: 200%;
@@ -130,7 +159,7 @@ figure:hover::before {
 
 p {
   font-size: larger;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
 }
 
 .flex-item2 {
@@ -163,10 +192,14 @@ p {
   margin: auto;
 }
 
+.contact {
+  font-family: "Lato", sans-serif;
+}
+
 .bottom {
-  background-color: #0094c8;
+  background-color: rgb(103, 142, 226) 23.8%;;
   font-size: small;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
+  color: white;
 }
 

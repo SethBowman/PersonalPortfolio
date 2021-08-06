@@ -5,22 +5,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
     <script src="app.js" defer></script>
     <title>Seth Bowman Portfolio</title>
   </head>
   <body>
+    <section>
+      <h1>Seth Bowman's Portfolio</h1>
+    </section>
     <section id="headPhoto">
-      <img id="heading" src="images/personalpic.gif" alt="Gif Header" />
+      <img id="heading" src="images/headshot.jpg" alt="Gif Header" style="height: 350px;"/>
     </section>
     <section>
-      <h1 class="AnimatedHeading">Welcome!</h1>
+      <h2 class="AnimatedHeading">Welcome!</h2>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
       <p>Coder, Instructor, Family man.</p>
     </section>
-    <ul>
-      <li><a href="mailto:sbowman@truecoders.io">sbowman@truecoders.io</a></li>
-      <li><a href="tel:205-787-0852">(205)787-0852</a></li>
+    <ul class="contact">
+      <li><a class="contact" href="mailto:sbowman@truecoders.io">sbowman@truecoders.io</a></li>
+      <li><a class="contact" href="tel:205-787-0852">(205)787-0852</a></li>
       <section>
         <h2 id="schooling">Schooling/Work at TrueCoders</h2>
         <div class="flex-container2">
@@ -31,6 +38,7 @@
                 target="_blank"
               >
                 <img
+                  class="true-coders"
                   id="tclogo"
                   src="images/tclogo.jpg"
                   alt="TrueCodersLogo"
@@ -51,8 +59,9 @@
       <div class="flex-container">
         <div class="flex-item">
           <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
-            <figure>
+            <figure class="circle-img">
               <img
+                id="lang"
                 src="images/javascript-logo.png"
                 alt="JSLogo"
                 style="height: 100px"
@@ -62,8 +71,9 @@
         </div>
         <div class="flex-item">
           <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
-            <figure>
+            <figure class="circle-img">
               <img
+                id="lang"
                 src="images/htmllogo.png"
                 alt="HTMLlogo"
                 style="height: 100px"
@@ -73,8 +83,9 @@
         </div>
         <div class="flex-item">
           <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
-            <figure>
+            <figure class="circle-img">
               <img
+                id="lang"
                 src="images/csslogo.png"
                 alt="CSSLogo"
                 style="height: 100px"
@@ -87,8 +98,9 @@
             href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
             target="_blank"
           >
-            <figure>
+            <figure class="circle-img">
               <img
+                id="lang"
                 src="images/csharplogo.png"
                 alt="CSharpLogo"
                 style="height: 100px"
@@ -102,9 +114,10 @@
       <h2 id="github">Github:</h2>
       <div class="flex-container3">
         <div class="flex-item3">
-          <figure>
+          <figure class="circle-img">
             <a href="https://github.com/SethBowman" target="_blank">
               <img
+                id="lang"
                 id="GithubLogo"
                 src="images/githublogo.png"
                 alt="GithubPage"
@@ -127,9 +140,16 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <p class="bottom">Sign up with 
-      <a class="bottom" href="https://truecoders.io/landing?gclid=Cj0KCQjwytOEBhD5ARIsANnRjVj0wVbYr02TXKH3WF5ipi2E_W55yjwrYvJGx9AOjKykL_lAyaJiyJkaAunjEALw_wcB" target="_blank">
+    <p class="bottom">
+      Sign up with
+      <a
+        class="bottom"
+        href="https://truecoders.io/landing?gclid=Cj0KCQjwytOEBhD5ARIsANnRjVj0wVbYr02TXKH3WF5ipi2E_W55yjwrYvJGx9AOjKykL_lAyaJiyJkaAunjEALw_wcB"
+        target="_blank"
+      >
         TrueCoders
-      </a> and become a web developer too!</p>
+      </a>
+      and become a web developer too!
+    </p>
   </body>
 </html>
