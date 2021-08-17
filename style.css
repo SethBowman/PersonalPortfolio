@@ -5,7 +5,9 @@
   
   align-items: center;
   text-align: center;
-  color: rgb(70, 144, 255);  
+  color: rgb(70, 144, 255); 
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 body {
