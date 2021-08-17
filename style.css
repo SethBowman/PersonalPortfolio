@@ -91,15 +91,14 @@ h1 {
 
 .ParaAnime {
   font-weight: 800;
-  font-size: 1.2em;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
 
 .ParaAnime .word {
   display: inline-block;
-  line-height: 1em;
-  padding: 10px;
+  line-height: 0.3em;  
 }
 
 figure {  
