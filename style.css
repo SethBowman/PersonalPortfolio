@@ -99,6 +99,7 @@ h1 {
 .ParaAnime .word {
   display: inline-block;
   line-height: 1em;
+  padding: 10px;
 }
 
 figure {  
@@ -203,5 +204,6 @@ p {
   font-size: small;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
+  margin-bottom: 50px;
 }
 
