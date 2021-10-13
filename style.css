@@ -6,7 +6,7 @@
   color: rgb(70, 144, 255);
 }
 
-body {
+html, body {
   margin: 0;
   font-family: "Lato", sans-serif;
   background-image: linear-gradient(
@@ -158,6 +158,9 @@ p {
 ul {
   margin-left: 350px;
   margin-right: 350px;
+  list-style-type: none;
+  margin-left: 300px;
+  margin-right: 350px;
 }
 
 .flex-item2 {
@@ -203,6 +206,7 @@ ul {
 }
 
 .para {
-  margin: 35px;
-  max-width: fit-content;
+ margin-left: 300px;
+ margin-right: 300px;
+  
 }
