@@ -201,3 +201,8 @@ ul {
   color: rgb(70, 144, 255);
   margin-bottom: 50px;
 }
+
+.para {
+  margin: 35px;
+  max-width: fit-content;
+}
