@@ -6,7 +6,8 @@
   color: rgb(70, 144, 255);
 }
 
-html, body {
+html,
+body {
   margin: 0;
   font-family: "Lato", sans-serif;
   background-image: linear-gradient(
@@ -44,7 +45,7 @@ h1 {
 .flex-container {
   display: flex;
   justify-content: space-around;
-  max-width: 800px;
+  max-width: 400px;
   flex-wrap: wrap;
   margin: auto;
 }
@@ -206,7 +207,6 @@ ul {
 }
 
 .para {
- margin-left: 300px;
- margin-right: 300px;
-  
+  margin-left: 300px;
+  margin-right: 300px;
 }
